@@ -27,6 +27,10 @@
 		"message": "　This extension is working to override websites displayed by the browser shows. Because of that, the extension need to read the content of websites. The content read by the extension will never send outside. To eliminate any worries, the source codes are open to the public at the following link, and you can check that it actually does."
 	},
 
+	"enabled": {
+		"message": "Enabled"
+	},
+
 	"extensionDescription": {
 		"message": "This extension checks a content of a link instantly.",
 		"description": "Description of the extension."
@@ -157,7 +161,7 @@
 	},
 
 	"tutorialVideo1": {
-		"message": "A video is played when you put a cursor on a link of 'mkv', 'mov', 'mp4', 'webm' and 'wmv'."
+		"message": "A video is played when you put a cursor on a link of 'm3u8', 'mkv', 'mov', 'mp4', 'webm' and 'wmv'."
 	},
 
 	"tutorialVideo2": {
