@@ -1,11 +1,114 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B804A6B0-5CC3-4BAF-AE10-89BF6A21708F}"
+	ProjectSection(SolutionItems) = preProject
+		AppXManifest.xml = AppXManifest.xml
+		LICENSE.txt = LICENSE.txt
+		priconfig.xml = priconfig.xml
+		README.md = README.md
+		README_ja.md = README_ja.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extensionRoot", "extensionRoot", "{C1711926-BF2D-4554-9E5C-72C1D5538725}"
+	ProjectSection(SolutionItems) = preProject
+		extensionRoot\index.css = extensionRoot\index.css
+		extensionRoot\index.html = extensionRoot\index.html
+		extensionRoot\index.js = extensionRoot\index.js
+		extensionRoot\manifest.json = extensionRoot\manifest.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_locales", "_locales", "{55989205-E700-42CD-BCDF-5B76CAC0D80C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "en", "en", "{E0779E9D-AED8-4CB4-A8F4-0BDB943DCACF}"
+	ProjectSection(SolutionItems) = preProject
+		extensionRoot\_locales\en\messages.json = extensionRoot\_locales\en\messages.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ja", "ja", "{DE4C0B46-1CB5-45E3-8E37-A28DB34AEB9D}"
+	ProjectSection(SolutionItems) = preProject
+		extensionRoot\_locales\ja\messages.json = extensionRoot\_locales\ja\messages.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_resources", "_resources", "{CCC88409-7440-46C3-ADEB-90C246B4CED7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "en-us", "en-us", "{DD93855B-BFED-4DE1-BF82-9FBC71D6FAC0}"
+	ProjectSection(SolutionItems) = preProject
+		extensionRoot\_resources\en-us\resources.resjson = extensionRoot\_resources\en-us\resources.resjson
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ja-jp", "ja-jp", "{604EE7F3-3850-4102-81C6-E11B08D197DB}"
+	ProjectSection(SolutionItems) = preProject
+		extensionRoot\_resources\ja-jp\resources.resjson = extensionRoot\_resources\ja-jp\resources.resjson
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_values", "_values", "{67FFFDF5-B0AC-4621-921F-EA0AD960DF42}"
+	ProjectSection(SolutionItems) = preProject
+		extensionRoot\_values\defaultValues.json = extensionRoot\_values\defaultValues.json
+		extensionRoot\_values\storageKeys.json = extensionRoot\_values\storageKeys.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "background", "background", "{535CCAC0-443A-4987-89EB-378928A9E311}"
+	ProjectSection(SolutionItems) = preProject
+		extensionRoot\background\background.js = extensionRoot\background\background.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{9153F104-47CA-4E98-A162-77108BA3405F}"
+	ProjectSection(SolutionItems) = preProject
+		extensionRoot\content\content.js = extensionRoot\content\content.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icons", "icons", "{66C5CF65-2DE6-4EF2-8897-EF695AE94054}"
+	ProjectSection(SolutionItems) = preProject
+		extensionRoot\icons\icon-1080.png = extensionRoot\icons\icon-1080.png
+		extensionRoot\icons\icon-150.png = extensionRoot\icons\icon-150.png
+		extensionRoot\icons\icon-1536.png = extensionRoot\icons\icon-1536.png
+		extensionRoot\icons\icon-192.png = extensionRoot\icons\icon-192.png
+		extensionRoot\icons\icon-24.png = extensionRoot\icons\icon-24.png
+		extensionRoot\icons\icon-300.png = extensionRoot\icons\icon-300.png
+		extensionRoot\icons\icon-384.png = extensionRoot\icons\icon-384.png
+		extensionRoot\icons\icon-40.png = extensionRoot\icons\icon-40.png
+		extensionRoot\icons\icon-44.png = extensionRoot\icons\icon-44.png
+		extensionRoot\icons\icon-48.png = extensionRoot\icons\icon-48.png
+		extensionRoot\icons\icon-50.png = extensionRoot\icons\icon-50.png
+		extensionRoot\icons\icon-768.png = extensionRoot\icons\icon-768.png
+		extensionRoot\icons\icon-96.png = extensionRoot\icons\icon-96.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "options", "options", "{14DC3919-665A-442B-A9AC-05D1D20CB9F2}"
+	ProjectSection(SolutionItems) = preProject
+		extensionRoot\options\options.css = extensionRoot\options\options.css
+		extensionRoot\options\options.html = extensionRoot\options\options.html
+		extensionRoot\options\options.js = extensionRoot\options\options.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "popup", "popup", "{2A692C1F-36B3-4CA3-A524-7FF889C8B196}"
+	ProjectSection(SolutionItems) = preProject
+		extensionRoot\popup\popup.css = extensionRoot\popup\popup.css
+		extensionRoot\popup\popup.html = extensionRoot\popup\popup.html
+		extensionRoot\popup\popup.js = extensionRoot\popup\popup.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1711926-BF2D-4554-9E5C-72C1D5538725} = {B804A6B0-5CC3-4BAF-AE10-89BF6A21708F}
+		{55989205-E700-42CD-BCDF-5B76CAC0D80C} = {C1711926-BF2D-4554-9E5C-72C1D5538725}
+		{E0779E9D-AED8-4CB4-A8F4-0BDB943DCACF} = {55989205-E700-42CD-BCDF-5B76CAC0D80C}
+		{DE4C0B46-1CB5-45E3-8E37-A28DB34AEB9D} = {55989205-E700-42CD-BCDF-5B76CAC0D80C}
+		{CCC88409-7440-46C3-ADEB-90C246B4CED7} = {C1711926-BF2D-4554-9E5C-72C1D5538725}
+		{DD93855B-BFED-4DE1-BF82-9FBC71D6FAC0} = {CCC88409-7440-46C3-ADEB-90C246B4CED7}
+		{604EE7F3-3850-4102-81C6-E11B08D197DB} = {CCC88409-7440-46C3-ADEB-90C246B4CED7}
+		{67FFFDF5-B0AC-4621-921F-EA0AD960DF42} = {C1711926-BF2D-4554-9E5C-72C1D5538725}
+		{535CCAC0-443A-4987-89EB-378928A9E311} = {C1711926-BF2D-4554-9E5C-72C1D5538725}
+		{9153F104-47CA-4E98-A162-77108BA3405F} = {C1711926-BF2D-4554-9E5C-72C1D5538725}
+		{66C5CF65-2DE6-4EF2-8897-EF695AE94054} = {C1711926-BF2D-4554-9E5C-72C1D5538725}
+		{14DC3919-665A-442B-A9AC-05D1D20CB9F2} = {C1711926-BF2D-4554-9E5C-72C1D5538725}
+		{2A692C1F-36B3-4CA3-A524-7FF889C8B196} = {C1711926-BF2D-4554-9E5C-72C1D5538725}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8897EC5-BC52-4C15-9765-A7C6D0EEDE44}
